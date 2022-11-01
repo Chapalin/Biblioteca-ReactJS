@@ -1,0 +1,154 @@
+.container  {
+  width: 100%;
+  padding: 0px;
+  height: 100vh;
+  /* display: flex; */
+  flex-direction: column;
+  /* justify-content: space-between; */
+
+}
+
+/* header */
+
+header {
+  width: 100%;
+  color: #61adfb;
+  padding: 0 15px;
+  position: fixed;
+  background-color: #20232a;
+}
+
+header p {
+  margin: 0px;
+  font-weight: 700;
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+/* header */
+
+/* main */
+
+.first-section {
+  text-align: center;
+  background-color:#20233b;
+  padding: 110px 0px 60px 0px;
+}
+
+.first-section h2 {
+  margin-top: 0px;
+  color: #61adfb;
+}
+
+.first-section p {
+  color: #ffff;
+  font-size: 25px;
+  margin-bottom: 45px;
+}
+
+.first-section a {
+  color: #000;
+  font-size: 15px;
+  padding:5px 10px;
+  text-decoration: none;
+  border: 1px solid #000;
+  background-color: #61adfb;
+
+}
+
+.first-section a:hover {
+  font-size: 16px;
+  transition: 0.3s;
+  padding:6px 12px;
+  border-radius: 2px;
+  border: 1px solid #61adfb;
+
+}
+
+.second-section {
+  margin: 50px 0px;
+  text-align: center;
+}
+
+/* .second-section div {
+  display:flex;
+  justify-content: space-around;
+} */
+
+.second-section .cards {
+  width: 22%;
+  height: 120px;
+  padding: 10px;
+  margin-top: 80px;
+  border-radius: 5px;
+  box-shadow: 3px 5px 10px 0px;
+  background-color: #20233b;
+
+  /* display:flex; */
+  flex-direction: column;
+}
+
+.second-section h3 {
+  margin: 1px;
+  font-weight: 700;
+  color: #FFFF00;
+}
+
+.second-section .cards p {
+  color: #ffff;
+  font-size: 13px;
+}
+
+/* main */
+
+/* footer */
+
+footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  
+  /* opacity: calc(0.1); */
+}
+
+.column{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 0.3%;
+  height: 45px;
+  margin-top: 5px;
+  border-radius:20px
+}
+
+/* .footer-row {
+  display:flex;
+  justify-content: space-around
+} */
+
+.social .style{
+  width: 27%;
+  height: 20px;
+  font-size: 13px;
+  padding: 2px 17px;
+  border-radius: 5px;
+  margin: 15px 0px 0px 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.style {
+  text-decoration: none;
+  color:#000
+}
+.LI:hover {
+  color: white;
+  background-color: blue;
+}
+
+.GH:hover {
+  color: white;
+  background-color: black;
+}
+
+.flex {
+   display:flex;
+  justify-content: space-around
+}
+
+/* footer */
